@@ -29,4 +29,34 @@ SQL（Structured Query Language）
 SQL语句不区分大小写
 
 SQL支持以下三种注释
+#注释
+FROM mytable; --注释
+/* 注释1
+   注释2 */
+
+数据库创建与使用
+CREATE DATABASE test
+USE test
+
+二、创建表
+CREATE TABLE mytable(
+  id INT NOT NULL AUTO_INCREMENT,
+  col1 INT NOT NULL DEFAULT 1,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
